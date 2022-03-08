@@ -8,9 +8,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Projem',
-      theme: ThemeData(
-        primarySwatch: Colors.green,
-      ),
+      theme: ThemeData.dark(),
       home: Scaffold(
         appBar: AppBar(),
         body: Center(child: Text("Merhaba"))
